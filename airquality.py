@@ -24,8 +24,8 @@ def email():
     else:
         e_alert = 'Good or Moderate, Air Quality:', air_quality
 
-    sent_from = 'shawnpypy@gmail.com'
-    to = ['shawnpypy@gmail.com']
+    sent_from = '@gmail.com'
+    to = ['@gmail.com']
     subject = 'Air Quality Alert!'
     body = e_alert
 
