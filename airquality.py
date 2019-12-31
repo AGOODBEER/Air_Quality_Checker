@@ -1,6 +1,6 @@
 import requests
 import smtplib
-import emailconfig
+import emailconfig # emailconfig file is not uplaoded due to my test email info being in there.
 from bs4 import BeautifulSoup
 
 
