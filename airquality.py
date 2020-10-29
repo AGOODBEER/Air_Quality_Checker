@@ -1,6 +1,6 @@
 import requests
 import smtplib
-import emailconfig # emailconfig file is not uplaoded due to my test email info being in there.
+import emailconfig # please create your own emailconfig file
 from bs4 import BeautifulSoup
 
 
@@ -42,7 +42,7 @@ def email():
     server.login(emailconfig.gmail_user,emailconfig.gmail_pass)
     server.sendmail(sent_from, to, email_text)
     server.close()
-    print('sent!')
+    
 
 
 if __name__ == '__main__':
